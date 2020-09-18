@@ -30,7 +30,7 @@
 - 打开虚拟介质管理
 - 选中对应虚拟盘，改为多重加载，释放盘片
 
-    ![多重加载](imgs/多重加载.PNG)
+    ![多重加载](https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/%E5%A4%9A%E9%87%8D%E5%8A%A0%E8%BD%BD.PNG)
 
 ***
 
