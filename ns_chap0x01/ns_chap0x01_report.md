@@ -56,7 +56,7 @@
 
     - 攻击者所需网卡：NAT网络
 
-        <img src="imgs\0.2Kali攻击者网卡配置.PNG" />
+        <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.2Kali%E6%94%BB%E5%87%BB%E8%80%85%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
         
         <img src="imgs\0.2Kali攻击者网卡地址.PNG" />
 
@@ -64,25 +64,25 @@
 
         - Victim-Kali-1
 
-            <img src="imgs\0.3Victim-Kali-1网卡配置.PNG" />
+            <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.3Victim-Kali-1%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
             
             <img src="imgs\0.3Victim-Kali-1网卡地址.PNG" />
 
         - Victim-XP-1
 
-            <img src="imgs\0.4Victim-XP-1网卡配置.PNG" />
+            <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.4Victim-XP-1%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
             
             <img src="imgs\0.4Victim-XP-1网卡地址.PNG" />
 
         - Victim-Debian-2
 
-            <img src="imgs\0.5Victim-Debian-2网卡配置.PNG" />
+            <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.5Victim-Debian-2%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
             
             <img src="imgs\0.5Victim-Debian-2网卡地址.PNG" />
 
         - Victim-XP-2
 
-            <img src="imgs\0.6Victim-XP-2网卡配置.PNG" />
+            <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.6Victim-XP-2%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
             
             <img src="imgs\0.6Victim-XP-2网卡地址.PNG" />
 
@@ -93,93 +93,93 @@
 
 - Victim-Kali-1
 
-    <img src="imgs\1.1Victim-Kali-1访问攻击者.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/1.1Victim-Kali-1%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85.png" />
 
 - Victim-XP-1
     
-    <img src="imgs\1.2Victim-XP-1访问攻击者.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/1.2Victim-XP-1%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85.png" />
 
 - Victim-Debian-2
     
-    <img src="imgs\1.3Victim-Debian-2访问攻击者.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/1.3Victim-Debian-2%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85.png" />
 
 - Victim-XP-2
     
-    <img src="imgs\1.4Victim-XP-2访问攻击者.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/1.4Victim-XP-2%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85.png" />
 
 #### 攻击者主机无法直接访问靶机
 
 - Kali-Attacker
     - 攻击者可以访问互联网，说明不是网络问题，攻击者无法访问靶机。
 
-    <img src="imgs\2攻击者无法访问靶机.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/2%E6%94%BB%E5%87%BB%E8%80%85%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E9%9D%B6%E6%9C%BA.png" />
 
 
 #### 网关可以直接访问攻击者主机和靶机
 
 - Debian-Gateway
 
-    <img src="imgs\3.1Debian网关可以直接访问攻击者和靶机.PNG" />
+    <img src="imgs\https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/3.1Debian%E7%BD%91%E5%85%B3%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85%E5%92%8C%E9%9D%B6%E6%9C%BA.png" />
 
     - 网关一开始访问不了XP靶机，原因是XP靶机的防火墙没有禁用。禁用防火墙以后就可以访问了。
 
-    <img src="imgs\3.2XP系统关闭防火墙.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/3.2XP%E7%B3%BB%E7%BB%9F%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99.png" />
 
-    <img src="imgs\3.3Debian网关可以直接访问攻击者和靶机.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/3.3Debian%E7%BD%91%E5%85%B3%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AE%E6%94%BB%E5%87%BB%E8%80%85%E5%92%8C%E9%9D%B6%E6%9C%BA.png" />
 
 #### 靶机的所有对外上下行流量必须经过网关
 
 - Victim-Kali-1
     
-    <img src="imgs\4.1Victim-Kali-1流量经过网关.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/4.1Victim-Kali-1%E6%B5%81%E9%87%8F%E7%BB%8F%E8%BF%87%E7%BD%91%E5%85%B3.png" />
 
 - Victim-XP-1
     
-    <img src="imgs\4.2Victim-XP-1流量经过网关.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/4.2Victim-XP-1%E6%B5%81%E9%87%8F%E7%BB%8F%E8%BF%87%E7%BD%91%E5%85%B3.png" />
 
 - Victim-Debian-2
     
-    <img src="imgs\4.3Victim-Debian-2流量经过网关.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/4.3Victim-Debian-2%E6%B5%81%E9%87%8F%E7%BB%8F%E8%BF%87%E7%BD%91%E5%85%B3.png" />
 
 - Victim-XP-2
     
-    <img src="imgs\4.4Victim-XP-2流量经过网关.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/4.4Victim-XP-2%E6%B5%81%E9%87%8F%E7%BB%8F%E8%BF%87%E7%BD%91%E5%85%B3.png" />
 
 - 关闭网关后不能访问互联网，并且如图所示，此时的IP地址是自动获取的。
     
-    <img src="imgs\4.5证实流量经过网关.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/4.5%E8%AF%81%E5%AE%9E%E6%B5%81%E9%87%8F%E7%BB%8F%E8%BF%87%E7%BD%91%E5%85%B3.png" />
 
 
 #### 所有节点均可以访问互联网
 
 - Victim-Kali-1
     
-    <img src="imgs\5.1Victim-Kali-1访问互联网.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.1Victim-Kali-1%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 - Victim-XP-1
     
-    <img src="imgs\5.2Victim-XP-1访问互联网.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.2Victim-XP-1%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 - Victim-Debian-2
     
-    <img src="imgs\5.3Victim-Debian-2访问互联网.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.3Victim-Debian-2%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 - Victim-XP-2
     
-    <img src="imgs\5.4Victim-XP-2访问互联网.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.4Victim-XP-2%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 - Debian-Gateway
     
-    <img src="imgs\2攻击者无法访问靶机.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.5Debian%E7%BD%91%E5%85%B3%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 - Kali-Attacker
     
-    <img src="imgs\5.6Kali攻击者访问互联网.PNG" />
+    <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/5.6Kali%E6%94%BB%E5%87%BB%E8%80%85%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.png" />
 
 
 ## 问题
 
-- 安装Debian系统时，```arp-get```一直报错，更改软件源也没有用，后来才发现是网卡只有lo一块，enp0s3也没有配置。
+- 安装Debian系统时，```arp-get```一直报错，更改软件源也没有用，后来才发现是网卡只有```lo```一块，```enp0s3```也没有配置。
 
 
 ## 参考资料
