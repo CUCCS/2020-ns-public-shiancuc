@@ -50,12 +50,14 @@
 - 配置拓扑环境需要的各网络
     - 网关所需网卡：NAT网络（为了使网关可以访问攻击者主机），Host-only网络（可以进行ssh连接），两块内部网络（分别用于搭建两块独立的局域网）
 
-        <img src="imgs\0.1Debian网关网卡配置.PNG" />
+        <img src="https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/0.1Debian%E7%BD%91%E5%85%B3%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE.png" />
+        
         <img src="imgs\0.1Debian网关网卡地址.PNG" />
 
     - 攻击者所需网卡：NAT网络
 
         <img src="imgs\0.2Kali攻击者网卡配置.PNG" />
+        
         <img src="imgs\0.2Kali攻击者网卡地址.PNG" />
 
     - victim（被攻击者）所需网卡：均为内部网络，使其分为两组，分别在不同的局域网内。
@@ -63,21 +65,25 @@
         - Victim-Kali-1
 
             <img src="imgs\0.3Victim-Kali-1网卡配置.PNG" />
+            
             <img src="imgs\0.3Victim-Kali-1网卡地址.PNG" />
 
         - Victim-XP-1
 
             <img src="imgs\0.4Victim-XP-1网卡配置.PNG" />
+            
             <img src="imgs\0.4Victim-XP-1网卡地址.PNG" />
 
         - Victim-Debian-2
 
             <img src="imgs\0.5Victim-Debian-2网卡配置.PNG" />
+            
             <img src="imgs\0.5Victim-Debian-2网卡地址.PNG" />
 
         - Victim-XP-2
 
             <img src="imgs\0.6Victim-XP-2网卡配置.PNG" />
+            
             <img src="imgs\0.6Victim-XP-2网卡地址.PNG" />
 
 
