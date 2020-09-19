@@ -11,7 +11,9 @@
 - 网关（Gateway）：Debian
 - 靶机（Victim）：Debian / xp-sp3 / Kali
 
-    ![实验环境](imgs/实验环境.PNG)
+    ![实验环境](imgs\实验环境.PNG)
+    
+    <img src="imgs\实验环境.png" style="zoom:80%;" />
 
 ## 实验要求
 - [x] 虚拟硬盘配置成多重加载
