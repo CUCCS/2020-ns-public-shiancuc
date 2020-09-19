@@ -10,10 +10,8 @@
 - 攻击者主机（Attacker）：Kali
 - 网关（Gateway）：Debian
 - 靶机（Victim）：Debian / xp-sp3 / Kali
-
-    ![实验环境](imgs\实验环境.PNG)
     
-    <img src="imgs\实验环境.png" style="zoom:80%;" />
+    <img src="imgs\实验环境.png" />
 
 ## 实验要求
 - [x] 虚拟硬盘配置成多重加载
@@ -32,7 +30,7 @@
 - 打开虚拟介质管理
 - 选中对应虚拟盘，改为多重加载，释放盘片
 
-    ![多重加载](https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x01/ns_chap0x01/imgs/%E5%A4%9A%E9%87%8D%E5%8A%A0%E8%BD%BD.PNG)
+    <img src="imgs\多重加载.PNG" />
 
 ***
 
@@ -52,29 +50,29 @@
 - 配置拓扑环境需要的各网络
     - 网关所需网卡：NAT网络（为了使网关可以访问攻击者主机），Host-only网络（可以进行ssh连接），两块内部网络（分别用于搭建两块独立的局域网）
 
-        ![0.1Debian网关网卡配置](imgs/0.1Debian网关网卡配置.PNG)![0.1Debian网关网卡地址](imgs/0.1Debian网关网卡地址.PNG)
+        <img src="imgs\0.1Debian网关网卡配置.PNG" /><img src="imgs\0.1Debian网关网卡地址.PNG" />
 
     - 攻击者所需网卡：NAT网络
 
-        ![0.2Kali攻击者网卡配置](imgs/0.2Kali攻击者网卡配置.PNG)![0.2Kali攻击者网卡地址](imgs/0.2Kali攻击者网卡地址.PNG)
+        <img src="imgs\0.2Kali攻击者网卡配置.PNG" /><img src="imgs\0.2Kali攻击者网卡地址.PNG" />
 
     - victim（被攻击者）所需网卡：均为内部网络，使其分为两组，分别在不同的局域网内。
 
         - Victim-Kali-1
 
-            ![0.3Victim-Kali-1网卡配置](imgs/0.3Victim-Kali-1网卡配置.PNG)![0.3Victim-Kali-1网卡地址](imgs/0.3Victim-Kali-1网卡地址.PNG)
+            <img src="imgs\0.3Victim-Kali-1网卡配置.PNG" /><img src="imgs\0.3Victim-Kali-1网卡地址.PNG" />
 
         - Victim-XP-1
 
-            ![0.4Victim-XP-1网卡配置](imgs/0.4Victim-XP-1网卡配置.PNG)![0.4Victim-XP-1网卡地址](imgs/0.4Victim-XP-1网卡地址.PNG)
+            <img src="imgs\0.4Victim-XP-1网卡配置.PNG" /><img src="imgs\0.4Victim-XP-1网卡地址.PNG" />
 
         - Victim-Debian-2
 
-            ![0.5Victim-Debian-2网卡配置](imgs/0.5Victim-Debian-2网卡配置.PNG)![0.5Victim-Debian-2网卡地址](imgs/0.5Victim-Debian-2网卡地址.PNG)
+            <img src="imgs\0.5Victim-Debian-2网卡配置.PNG" /><img src="imgs\0.5Victim-Debian-2网卡地址.PNG" />
 
         - Victim-XP-2
 
-            ![0.6Victim-XP-2网卡配置](imgs/0.6Victim-XP-2网卡配置.PNG)![0.6Victim-XP-2网卡地址](imgs/0.6Victim-XP-2网卡地址.PNG)
+            <img src="imgs\0.6Victim-XP-2网卡配置.PNG" /><img src="imgs\0.6Victim-XP-2网卡地址.PNG" />
 
 
 ### 网络连通性测试
@@ -82,76 +80,90 @@
 #### 靶机可以直接访问攻击者主机
 
 - Victim-Kali-1
-    ![1.1Victim-Kali-1访问攻击者](imgs/1.1Victim-Kali-1访问攻击者.PNG)
+
+    <img src="imgs\1.1Victim-Kali-1访问攻击者.PNG" />
 
 - Victim-XP-1
-    ![1.2Victim-XP-1访问攻击者](imgs/1.2Victim-XP-1访问攻击者.PNG)
+    
+    <img src="imgs\1.2Victim-XP-1访问攻击者.PNG" />
 
 - Victim-Debian-2
-    ![1.3Victim-Debian-2访问攻击者](imgs/1.3Victim-Debian-2访问攻击者.PNG)
+    
+    <img src="imgs\1.3Victim-Debian-2访问攻击者.PNG" />
 
 - Victim-XP-2
-    ![1.4Victim-XP-2访问攻击者](imgs/1.4Victim-XP-2访问攻击者.PNG)
-
+    
+    <img src="imgs\1.4Victim-XP-2访问攻击者.PNG" />
 
 #### 攻击者主机无法直接访问靶机
 
 - Kali-Attacker
     - 攻击者可以访问互联网，说明不是网络问题，攻击者无法访问靶机。
 
-    ![2攻击者无法访问靶机](imgs/2攻击者无法访问靶机.PNG)
+    <img src="imgs\2攻击者无法访问靶机.PNG" />
 
 
 #### 网关可以直接访问攻击者主机和靶机
 
 - Debian-Gateway
 
-    ![3.1Debian网关可以直接访问攻击者和靶机](imgs/3.1Debian网关可以直接访问攻击者和靶机.PNG)
+    <img src="imgs\3.1Debian网关可以直接访问攻击者和靶机.PNG" />
 
-    - 网关一开始访问不了XP靶机，原因是XP靶机的防火墙没有禁用。
+    - 网关一开始访问不了XP靶机，原因是XP靶机的防火墙没有禁用。禁用防火墙以后就可以访问了。
 
-    ![3.2XP系统关闭防火墙](imgs/3.2XP系统关闭防火墙.PNG)
+    <img src="imgs\3.2XP系统关闭防火墙.PNG" />
 
-    ![3.3Debian网关可以直接访问攻击者和靶机](imgs/3.3Debian网关可以直接访问攻击者和靶机.PNG)
-
+    <img src="imgs\3.3Debian网关可以直接访问攻击者和靶机.PNG" />
 
 #### 靶机的所有对外上下行流量必须经过网关
 
 - Victim-Kali-1
-    ![4.1Victim-Kali-1流量经过网关](imgs/4.1Victim-Kali-1流量经过网关.PNG)
+    
+    <img src="imgs\4.1Victim-Kali-1流量经过网关.PNG" />
 
 - Victim-XP-1
-    ![4.2Victim-XP-1流量经过网关](imgs/4.2Victim-XP-1流量经过网关.PNG)
+    
+    <img src="imgs\4.2Victim-XP-1流量经过网关.PNG" />
 
 - Victim-Debian-2
-    ![4.3Victim-Debian-2流量经过网关](imgs/4.3Victim-Debian-2流量经过网关.PNG)
+    
+    <img src="imgs\4.3Victim-Debian-2流量经过网关.PNG" />
 
 - Victim-XP-2
-    ![4.4Victim-XP-2流量经过网关](imgs/4.4Victim-XP-2流量经过网关.PNG)
+    
+    <img src="imgs\4.4Victim-XP-2流量经过网关.PNG" />
 
 - 关闭网关后不能访问互联网，并且如图所示，此时的IP地址是自动获取的。
-    ![4.5证实流量经过网关](imgs/4.5证实流量经过网关.PNG)
+    
+    <img src="imgs\4.5证实流量经过网关.PNG" />
 
 
 #### 所有节点均可以访问互联网
 
 - Victim-Kali-1
-    ![5.1Victim-Kali-1访问互联网](imgs/5.1Victim-Kali-1访问互联网.PNG)
+    
+    <img src="imgs\5.1Victim-Kali-1访问互联网.PNG" />
 
 - Victim-XP-1
-    ![5.2Victim-XP-1访问互联网](imgs/5.2Victim-XP-1访问互联网.PNG)
+    
+    <img src="imgs\5.2Victim-XP-1访问互联网.PNG" />
 
 - Victim-Debian-2
-    ![5.3Victim-Debian-2访问互联网](imgs/5.3Victim-Debian-2访问互联网.PNG)
+    
+    <img src="imgs\5.3Victim-Debian-2访问互联网.PNG" />
 
 - Victim-XP-2
-    ![5.4Victim-XP-2访问互联网](imgs/5.4Victim-XP-2访问互联网.PNG)
+    
+    <img src="imgs\5.4Victim-XP-2访问互联网.PNG" />
 
 - Debian-Gateway
+    
+    <img src="imgs\2攻击者无法访问靶机.PNG" />
     ![5.5Debian网关访问互联网](imgs/5.5Debian网关访问互联网.PNG)
 
 - Kali-Attacker
-    ![5.6Kali攻击者访问互联网](imgs/5.6Kali攻击者访问互联网.PNG)
+    
+    <img src="imgs\5.6Kali攻击者访问互联网.PNG" />
 
 
 ## 问题
