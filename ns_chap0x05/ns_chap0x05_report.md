@@ -9,7 +9,7 @@
 - python + scapy
 - nmap
 - 网络拓扑
-    ![网络拓扑图](imgs/网络拓扑图.PNG)
+    ![网络拓扑图](https://github.com/CUCCS/2020-ns-public-shiancuc/blob/ns_chap0x05/ns_chap0x05/imgs/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91%E5%9B%BE.png)
 
 ## 实验准备
 
